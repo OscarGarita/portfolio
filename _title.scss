@@ -1,0 +1,42 @@
+@use 'variables';
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin: 96px 0;
+    
+.info{
+    margin-top: 96px;
+}
+    h1 {
+        color: $text-color;
+        font-size: 68px;
+        font-weight: 400;
+    }
+
+
+    .bold-title {
+        color: $primary-color;
+        font-weight: 800;
+    }
+
+    h2 {
+        font-weight: 400;
+    }
+}
+
+.profile-picture {
+    width: 436px;
+    height: 436px;
+    
+
+    img {
+        width: 436px;
+        height: 436px;
+        border-radius: 436px;
+        -webkit-border-radius: 436px;
+        -moz-border-radius: 436px;
+        -ms-border-radius: 436px;
+        -o-border-radius: 436px;
+}
+}
