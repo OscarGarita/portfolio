@@ -1,0 +1,54 @@
+@media (max-width: 480px) {
+    //mobile
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    // tablet
+    .container {
+        width: 768px;
+        padding: 0px 16px;
+        margin: auto;
+    }
+
+    header {
+        display: none;
+    }
+
+    .title {
+        justify-content: space-between;
+
+        .profile-picture {
+            width: 215px;
+            height: 215px;
+
+
+            img {
+                width: 215px;
+                height: 215px;
+            }
+
+        }
+
+        .info {
+            margin-top: 48px;
+
+            h1 {
+                font-size: 48px;
+            }
+        }
+
+
+    }
+
+
+    .projects {
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    
+
+}
