@@ -1,6 +1,6 @@
 @media (max-width: 480px) {
 
-    h2{
+    h2 {
         font-size: 18px;
     }
 
@@ -12,7 +12,27 @@
     }
 
     header {
-        display: none;
+        position: absolute;
+        top: 0;
+        width: 40%;
+        bottom: 0;
+        padding: 0;
+        margin: 8px 0 0 0;
+    }
+
+    header nav {
+        padding: 0;
+        height: 400px;
+        justify-content: space-around;
+        flex-direction: column;
+      
+
+
+    }
+
+
+    .btn-menu {
+        display: block;
     }
 
     .button-cv {

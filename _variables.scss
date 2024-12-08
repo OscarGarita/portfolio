@@ -18,12 +18,21 @@ h2 {
 
 body {
     background-color: #131313;
-
-
-
 }
 
+.btn-menu {
+    display: none;
+    
+    width: 45px;
+    height: 40px;
+    background-color: transparent;
+    color:$primary-color;
+    border: none;
+    i{
+        font-size: 35px;
+    }
 
+}
 
 .green-line {
     border: 1.5px solid $primary-color;
