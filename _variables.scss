@@ -78,7 +78,7 @@ body {
 
 .button-cv,
 .dribble-image,
-.production-image {
+.production-image,.calculator-image {
     cursor: pointer;
     transition: 0.3s ease, transform 0.3s ease;
     -webkit-transition: 0.3s ease, transform 0.3s ease;
@@ -89,7 +89,7 @@ body {
 
 .button-cv:hover,
 .dribble-image:hover,
-.production-image:hover {
+.production-image:hover,.calculator-image:hover {
     scale: (1.05);
 
 }
