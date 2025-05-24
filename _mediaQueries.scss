@@ -12,6 +12,7 @@
     }
 
     header {
+        display: none;
         position: absolute;
         top: 0;
         width: 40%;
@@ -21,13 +22,12 @@
     }
 
     header nav {
+        display: none;
         padding: 0;
         height: 400px;
         justify-content: space-around;
         flex-direction: column;
       
-
-
     }
 
 
@@ -49,13 +49,11 @@
         justify-content: space-between;
 
         .profile-picture {
-            width: 110px;
-            height: 110px;
+           
 
 
             img {
-                width: 110px;
-                height: 110px;
+               display: none;
             }
 
         }
@@ -79,11 +77,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
+.project-1{
+    margin-bottom: 16px;
+}
 
-    .project-2 {
-        margin-top: 48px;
-    }
 
     .dribble-image {
         width: 350px;
@@ -107,6 +106,9 @@
 
     header {
         display: none;
+        nav{
+            display: none;
+        }
     }
 
     .title {
