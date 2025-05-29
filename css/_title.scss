@@ -1,0 +1,39 @@
+@use 'variables';
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin: 96px 0;
+
+    .info {
+        margin-top: 96px;
+    }
+
+    h1 {
+        color: $text-color;
+        font-size: 68px;
+        font-weight: 400;
+    }
+
+
+    .bold-title {
+        color: $primary-color;
+        font-weight: 800;
+    }
+
+    h2 {
+        font-weight: 400;
+    }
+}
+
+.profile-picture {
+    
+    img
+{
+        width: 536px;
+        object-fit: cover;
+    }
+}
+ .social-media-mobile {
+        display: none;
+    }

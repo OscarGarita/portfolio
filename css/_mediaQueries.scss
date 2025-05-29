@@ -1,0 +1,161 @@
+@media (max-width: 480px) {
+
+    h2 {
+        font-size: 18px;
+    }
+
+    //mobile
+    .container {
+        width: 388px;
+        padding: 0px 16px;
+
+    }
+
+    header {
+        display: none;
+       
+
+    }
+
+
+    .btn-menu {
+        display: block;
+    }
+
+    .button-cv {
+        width: 125px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .subtitle {
+        align-self: flex-start;
+    }
+
+    .title {
+        margin: 48px 0;
+        justify-content: space-between;
+
+        .profile-picture {
+
+            img {
+                display: none;
+            }
+
+        }
+
+        .info {
+            margin-top: 24px;
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+
+    }
+
+    .social-media-mobile {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        gap: 24px;
+
+        img {
+            width: 26px;
+            height: 26px;
+        }
+
+        .linkedin,
+        .git {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+        }
+    }
+
+    .projects {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .project {
+        margin-bottom: 16px;
+        width: 368px;
+    }
+
+    .box-ux {
+
+
+        flex-direction: column;
+        align-items: baseline;
+
+        .case-study {
+            width: 100%;
+        }
+
+        .transparent-box {
+            width: 368px;
+
+            img {
+                width: 368px;
+            }
+        }
+
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 825px) {
+
+    // tablet
+    .container {
+        width: 768px;
+        padding: 0px 24px;
+    }
+
+    header {
+
+        display: none;
+
+    }
+
+    .title {
+        justify-content: space-between;
+
+        .profile-picture {
+            img {
+                width: 255px;
+
+            }
+        }
+
+        .info {
+            margin-top: 48px;
+
+            h1 {
+                font-size: 48px;
+            }
+        }
+
+    }
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .box-ux{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}

@@ -1,0 +1,91 @@
+$text-color: #f2f2f2;
+$primary-color: #70FF00;
+
+a {
+    text-decoration: none;
+    color: $text-color;
+}
+
+p,
+h2 {
+    color: $text-color;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+body {
+    background-color: #131313;
+}
+
+.btn-menu {
+    display: none;
+    
+    width: 45px;
+    height: 40px;
+    background-color: transparent;
+    color:$primary-color;
+    border: none;
+    i{
+        font-size: 35px;
+    }
+
+}
+
+.green-line {
+    border: 1.5px solid $primary-color;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 35px;
+    margin-bottom: 7px;
+    margin-right: 5px;
+    stroke-width: 3px;
+    stroke: #70FF00;
+    filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.60));
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.60));
+}
+
+.subtitle {
+    display: flex;
+    align-items: flex-end;
+    margin: 24px 0;
+
+}
+
+.button-cv {
+    margin-top: 24px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #6073dc;
+    color: 131313;
+    border: none;
+    cursor: pointer;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+}
+
+.button-cv{
+    cursor: pointer;
+    transition: 0.3s ease, transform 0.3s ease;
+    -webkit-transition: 0.3s ease, transform 0.3s ease;
+    -moz-transition: 0.3s ease, transform 0.3s ease;
+    -ms-transition: 0.3s ease, transform 0.3s ease;
+    -o-transition: 0.3s ease, transform 0.3s ease;
+}
+
+.button-cv:hover
+{
+    scale: (1.05);
+
+}
