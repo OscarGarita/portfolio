@@ -29,19 +29,22 @@ body {
 }
 
 .green-line {
-  border: 1.5px solid #70FF00;
+  background-color: #70FF00;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   width: 35px;
+  height: 4px;
   margin-bottom: 7px;
   margin-right: 5px;
-  stroke-width: 3px;
-  stroke: #70FF00;
-  filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.6));
-  -webkit-filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.6));
+  filter: drop-shadow(0px 0px 4px #70FF00);
+  -webkit-filter: drop-shadow(0px 0px 4px #70FF00);
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 .subtitle {
@@ -166,19 +169,22 @@ body {
 }
 
 .green-line {
-  border: 1.5px solid #70FF00;
+  background-color: #70FF00;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   width: 35px;
+  height: 4px;
   margin-bottom: 7px;
   margin-right: 5px;
-  stroke-width: 3px;
-  stroke: #70FF00;
-  filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.6));
-  -webkit-filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.6));
+  filter: drop-shadow(0px 0px 4px #70FF00);
+  -webkit-filter: drop-shadow(0px 0px 4px #70FF00);
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 .subtitle {
@@ -317,7 +323,6 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .box-ux h2 {
   margin: 20px 0;
@@ -341,8 +346,10 @@ body {
 }
 
 .concepts {
+  height: 545px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .transparent-box {
@@ -412,19 +419,22 @@ body {
 }
 
 .green-line {
-  border: 1.5px solid #70FF00;
+  background-color: #70FF00;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   width: 35px;
+  height: 4px;
   margin-bottom: 7px;
   margin-right: 5px;
-  stroke-width: 3px;
-  stroke: #70FF00;
-  filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.6));
-  -webkit-filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.6));
+  filter: drop-shadow(0px 0px 4px #70FF00);
+  -webkit-filter: drop-shadow(0px 0px 4px #70FF00);
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 .subtitle {
@@ -525,19 +535,22 @@ body {
 }
 
 .green-line {
-  border: 1.5px solid #70FF00;
+  background-color: #70FF00;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   width: 35px;
+  height: 4px;
   margin-bottom: 7px;
   margin-right: 5px;
-  stroke-width: 3px;
-  stroke: #70FF00;
-  filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.6));
-  -webkit-filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.6));
+  filter: drop-shadow(0px 0px 4px #70FF00);
+  -webkit-filter: drop-shadow(0px 0px 4px #70FF00);
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 .subtitle {
@@ -708,6 +721,11 @@ ul li .certificate {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+@keyframes blink {
+  to {
+    scale: 1.1;
   }
 }
 * {
