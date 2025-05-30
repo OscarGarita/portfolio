@@ -21,32 +21,36 @@ body {
 
 .btn-menu {
     display: none;
-    
+
     width: 45px;
     height: 40px;
     background-color: transparent;
-    color:$primary-color;
+    color: $primary-color;
     border: none;
-    i{
+
+    i {
         font-size: 35px;
     }
 
 }
 
 .green-line {
-    border: 1.5px solid $primary-color;
+    background-color: $primary-color;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     width: 35px;
+    height: 4px;
     margin-bottom: 7px;
     margin-right: 5px;
-    stroke-width: 3px;
-    stroke: #70FF00;
-    filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.60));
-    -webkit-filter: drop-shadow(0px 0px 3px rgba(112, 255, 0, 0.60));
+    filter: drop-shadow(0px 0px 4px #70FF00);
+    -webkit-filter: drop-shadow(0px 0px 4px #70FF00);
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .subtitle {
@@ -75,7 +79,7 @@ body {
 
 }
 
-.button-cv{
+.button-cv {
     cursor: pointer;
     transition: 0.3s ease, transform 0.3s ease;
     -webkit-transition: 0.3s ease, transform 0.3s ease;
@@ -84,8 +88,7 @@ body {
     -o-transition: 0.3s ease, transform 0.3s ease;
 }
 
-.button-cv:hover
-{
+.button-cv:hover {
     scale: (1.05);
 
 }
