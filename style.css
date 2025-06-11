@@ -618,6 +618,9 @@ ul li .certificate {
 }
 
 @media (max-width: 480px) {
+  .hand {
+    width: 38px;
+  }
   h2 {
     font-size: 18px;
   }
