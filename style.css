@@ -122,8 +122,13 @@ header nav a:hover {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+header .social-media .dribbble img {
+  width: 24px;
+  height: 24px;
+}
 header .social-media .linkedin,
-header .social-media .git {
+header .social-media .git,
+header .social-media .dribbble {
   display: flex;
   align-items: center;
   gap: 12px;
